@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- <link rel="stylesheet" href="style.css" /> -->
+		<meta charset="UTF-8" />
+		<meta name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+<!-- <script>
+	 
+	 let request = new XMLHttpRequest();
+	 request.open('GET','https://jsonplaceholder.typicode.com/posts');
+	 request.send();
+	 request.onload = () => {
+		console.log(request);
+		if(request.status === 200){
+			console.log(JSON.parse(request.response))
+		} else {
+			console.log(`error ${request.status} ${request.statusText}`);
+		}
+	 }
+</script> -->
+
+
+<div id="MyData">
+</div>
+
+
+
+<table border="2">
+	<thead class="thead-dark">
+		<tr>
+		 <th scope="col">userId</th>
+		 <th scope="col">id</th>
+		 <th scope="col">title</th>
+		 <th scope="col">body</th>
+	   </tr>
+	</thead>
+  <tbody id="tableBody">
+							
+</tbody>
+</table>
+
+
+<script src="script.js"></script>
+
+
+
+		<!-- <div class="d-flex justify-content-center">
+			<div class="spinner-border"
+				role="status" id="loading">
+				<span class="sr-only">Loading...</span>
+			</div>
+		</div>
+		<h1>Registered Employees</h1>
+		<table id="employees"></table> -->
+	</body>
+</html>
